@@ -1,0 +1,10 @@
+﻿{
+  "url": "https://team-fhd0.testit.software/",
+  "privateToken": "d0FyN2ZYUlRpVWlIeTlzc3hw",
+  "projectId": "873a9c9c-232d-43cf-b95c-3485ae6e43df",
+  "configurationId": "CONFIGURATION_ID",
+  "testRunId": "75c85502-e0f8-41d5-9c59-0a1283690770",
+  "automaticCreationTestCases": false,
+  "certValidation": true,
+  "isDebug": true
+}

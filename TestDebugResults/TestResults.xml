@@ -1,0 +1,16 @@
+<testsuites>
+  <testsuite name="TestProject.dll" tests="1" skipped="0" failures="0" errors="0" time="0.04744" timestamp="2024-02-24T10:41:49" hostname="LAPTOP-KNJ1G8ME" id="0" package="TestProject.dll">
+    <properties />
+    <testcase classname="NUnit.Tests" name="HPTCAuthorizedLK" time="0.0474400" />
+    <system-out>Тест пройден
+
+Test Framework Informational Messages:
+NUnit Adapter 4.0.0.0: Test execution started
+Running all tests in D:\SPBPU\dipl\NUnit\bin\Debug\net6.0\TestProject.dll
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run
+HPTCAuthorizedLK: Тест пройден
+NUnit Adapter 4.0.0.0: Test execution complete
+</system-out>
+    <system-err></system-err>
+  </testsuite>
+</testsuites>

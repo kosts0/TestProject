@@ -1,0 +1,1 @@
+testit results import --url https://team-fhd0.testit.software --project-id 873a9c9c-232d-43cf-b95c-3485ae6e43df --configuration-id 87182cc8-0cb0-42e6-8d2e-1a8656b76c60 --testrun-name "nUnit test run" --results results/test-results.xml --token d0FyN2ZYUlRpVWlIeTlzc3hw
