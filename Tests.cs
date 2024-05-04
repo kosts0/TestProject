@@ -56,5 +56,15 @@ namespace NUnit
         private static FileInputParamsBase<ModelBase> ImageTestList => new FileInputParamsBase<ModelBase>("TestData\\" + "ImageTest.json");
         private static List<string> TextTestList => new() { "3", "4", "5"};
         private string ResultDirectory = Path.Combine(Directory.GetCurrentDirectory(), "TestDebugResults", "rus.jpeg");
+
+
+        private static FileInputParamsBase<ModelBase> NewTestSource2 => new FileInputParamsBase<ModelBase>("TestData\\" + "NotImplemendetBuildTest.json");
+        [Test, TestCaseSource(nameof(NewTestSource2))]
+        public void NewTest2(ModelBase data)
+        {
+            AllureApi.Step($"Test ID: {data.Id}");
+            Thread.Sleep(TimeSpan.FromSeconds(FakerEx.RandomInt(max: 10)));
+            Assert.AreEqual(0, FakerEx.RandomInt(), "Неверное выполнение теста");
+        }
     }
 }
