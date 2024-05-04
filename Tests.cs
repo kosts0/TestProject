@@ -45,7 +45,7 @@ namespace NUnit
             //AllureApi.AddAttachment(ResultDirectory);
             Assert.AreEqual(0, new Random().Next(2)%2, "Неверное исполнение теста");
         }
-        private static FileInputParamsBase<ModelBase> NewTestSource => new FileInputParamsBase<ModelBase>("TestData\\" + "NewTest.json");
+        private static FileInputParamsBase<ModelBase> NewTestSource => new FileInputParamsBase<ModelBase>("TestData\\" + "NotImplementedBuildTest.json");
         [Test, TestCaseSource(nameof(NewTestSource))]
         public void NewTest(ModelBase data)
         {
